@@ -1,0 +1,41 @@
+# Qiskit Quantum Programming - Dependencies
+# Repository: https://github.com/drjyothimonc/qiskit-quantum-programming
+# Covers quantum fundamentals, algorithms, QML, optimization, and hardware experiments.
+# Recommended: Python 3.11 or 3.12 in a fresh virtual/Conda environment.
+# Install: python -m pip install -r requirements.txt
+
+# Core quantum computing and simulation
+qiskit>=2.0
+qiskit-aer>=0.16
+qiskit-algorithms>=0.3
+
+# Quantum machine learning and optimization
+qiskit-machine-learning>=0.8
+qiskit-optimization>=0.6
+
+# IBM Quantum hardware and cloud runtime
+qiskit-ibm-runtime>=0.30
+
+# Scientific computing and data analysis
+numpy>=1.26
+scipy>=1.12
+pandas>=2.1
+scikit-learn>=1.4
+networkx>=3.2
+
+# Circuit diagrams and result visualization
+matplotlib>=3.8
+pylatexenc>=2.10
+
+# Jupyter notebook environment
+notebook>=7.0
+ipykernel>=6.0
+
+# Optional: install separately only for notebooks that need them.
+# PyTorch integration for quantum neural networks:
+#   python -m pip install 'qiskit-machine-learning[torch]'
+# Additional convex optimization methods:
+#   python -m pip install cvxpy
+# Note: IBM Quantum hardware access requires a separate account and credentials.
+# Note: Minimum versions are flexible, not a tested/pinned lockfile; record exact
+#       versions for published research and revisit dependencies if APIs change.
